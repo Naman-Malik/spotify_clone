@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spotify.jpg" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class ="container">
+        <div class="songList">
+            <h1>Best of NCS - NO Copyright Sounds</h1>
+            <div class="songItemCont">
+                <div class="songItem">
+                    <img class="joji" src="joji.jpg" alt="1">
+                    <span>Your Man</span>
+                    <span class="songlistplay"><span class="timestamp">05.34 <i id="joji" class="playSong fas fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img class="promises" src="promises.jpg" alt="1">
+                    <span  class="songName">Promises</span>
+                    <span class="songlistplay"><span class="timestamp">05.34 <i id="promises" class="playSong fas fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img class="turn around" src="turn around.jpg" alt="1">
+                    <span class="songName">Turn Around</span>
+                    <span class="songlistplay"><span class="timestamp">05.34 <i id="turn around" class="playSong fas fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img class="circles" src="circles.jpg" alt="1">
+                    <span class="songName">Circles</span>
+                    <span class="songlistplay"><span class="timestamp">05.34 <i id="circles" class="playSong fas fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img class="crew love" src="crew love.jpg" alt="1">
+                    <span class="songName">Crew Love</span>
+                    <span class="songlistplay"><span class="timestamp">05.34 <i id="crew love" class="playSong fas fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img class="human" src="human.jpg" alt="1">
+                    <span class="songName">Human</span>
+                    <span class="songlistplay"><span class="timestamp">05.34 <i id="human" class="playSong fas fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img class="joji" src="joji.jpg" alt="1">
+                    <span class="songName">Your Man</span>
+                    <span class="songlistplay"><span class="timestamp">05.34 <i id="6" class="playSong fas fa-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
+        <div class="icons">
+            <i class="fas fa-3x fa-step-backward"></i>
+            <i class="fas fa-3x fa-play" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward"></i>
+        </div>
+        <div class="songInfo">
+            <img class="gif" src="playing.gif" width="42px" alt="">Let me love You - Justine Beiber
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
